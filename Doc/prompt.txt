@@ -1,0 +1,19 @@
+Take a look at the file `Doc/Site_internet_20251009.pdf`. It encloses the description of the website pages of an painting artist.
+Here are some details about the content:
+- there are 5 pages accessible from the menu: Accueil, Biographie, Galerie, Actualité et Contact
+- The main page contains:
+	 - A first presentational section of the site with a background image and the artist's signature.
+	 - below is a menu with shortcuts to the other pages
+	 - and then 3 shortcuts to the gallery categories "Huile", "Acrylique", et "Mine de Plomb" with images as links.
+- The galery is one single page with anchors from the menu. It is divided by technique (main category) and themes (sub-category).
+	- When clicking on an artwork miniature, it opens in a caroussel which can explore the theme
+- The actualities pages is divided in upcoming events, and passed events. When an event is clicked, it shows the event details (Name of event, location, dates, opening hours, a small description of the hosting venue, etc...).
+Finally the footer provides links to a patreon (Mécénat in french) page, and a legal mentions page.
+All images are in the `assets` folder.
+Main font is Calibri, secondary font (for artwork names) is Lucida Calligraphy.
+Color codes are:
+- background color: #232832
+- writing: white
+- menu bar: black
+- footer background, links, and menu items: #FFCCCC
+I want you to generate a static simple web site in french based on this document.
